@@ -1,0 +1,270 @@
+.chats{
+    display: flex;
+}
+.chats::-webkit-scrollbar {
+    display: none;
+  }
+
+.leftsideChat{
+    height : 100vh;
+    width : 30vw;
+    background-color: #c9e3ff7d;   
+    display: inline-block;
+    overflow-y: auto;
+    margin-left: 0px;
+}
+.leftsideChat::-webkit-scrollbar {
+    display: none;
+  }
+.rightsideChat{
+    margin-top: 111px;
+    height:78vh;
+    width:65vw;
+    overflow-y: scroll;
+    background-color: #e7e0e00a;
+    overflow-x: hidden;
+}
+.rightsideChat::-webkit-scrollbar {
+    display: none;
+}
+
+.adFriButton{
+    display: flex;
+    justify-content: center;
+}
+
+.addFriend{
+    color: white;
+    height : 40px;
+    width:150px;
+    background-color: black;
+    
+}
+
+.right_input{
+    display: flex;
+    justify-content: right;
+    margin-top: -40px;
+}
+.right_input::-webkit-scrollbar {
+    display: none;
+}
+.right_input2{
+    border: 1px solid white;
+    outline: none;
+    box-sizing: border-box;
+    position: fixed;
+    margin-right: 3vw;
+    padding: 0px 10px;
+    padding-top: 4px;
+    height: 5vh;
+    width:62vw;
+}
+
+.right_input2::-webkit-scrollbar {
+    display: none;
+}
+.right_input2::placeholder{
+    color: #3a516a7d;
+    font-size: 15px;
+}
+
+.messageButton{
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+    margin-top: 0px;
+
+}
+.messageButton::-webkit-scrollbar {
+    display: none;
+}
+.messageButton:hover{
+    cursor: pointer;
+}
+
+.leftClicky:hover{
+    background-color: #c9e3ff7d;
+}
+
+.rightUpper{
+    box-sizing: border-box;
+    position: fixed;
+    height : 9vh;
+    padding: 10px 20px;
+    font-size: 21px;
+    color: #173d66;
+    font-weight: 700;
+    background-color: #e7e0e00a;
+}
+
+.rightyUpper{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 500px;
+}
+.rightyUpper::-webkit-scrollbar {
+    display: none;
+}
+.line{
+    border: 1px solid #64729d5c;
+    width: 32vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.linerighty{
+    position: fixed;
+    height: 0px;
+    width: 62vw;
+    margin-top: 9vh;
+    margin-top: 0px;
+    border: 1px solid #64729d5c;
+    margin-top: 10vh;
+    margin-left: 36vw;
+    
+}
+.linerighty::-webkit-scrollbar {
+    display: none;
+}
+
+.profile{
+    background-color: #021933ed;
+    height:100vh;
+    width:5vw;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.leftAdd{
+    width: 40px;
+    height: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 10px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.i1{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+}
+.i2{
+    width: 34px;
+    height: 34px;
+    padding: 6px;
+    background-color: white;
+}
+.leftAdd:hover{
+    background-color: #fffafabf;
+}
+
+.leftyInput{
+    width: 25vw;
+    height: 6vh;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 17px;
+    margin-left: 3vw;
+    font-size: 15px;
+    color:#173d66;
+    outline: none;
+    /* position: fixed; */
+}
+
+.friendaddy{
+    height : 6vh;
+    width: 6vh;
+}
+.friendaddy:hover{
+    cursor: pointer;
+    background-color: #006900cf;
+    border-radius: 40px;
+}
+.leftyIcon{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -44px;
+    margin-right: 27px;
+    margin-bottom: 4vh;
+}
+
+.bottomLine{
+    margin-top: 94vh;
+    margin-bottom: -100px;
+}
+
+.i3{
+    margin-top : 0vh;;
+}
+.createGroup{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background-color: #127e05db;
+    color: white;
+    text-align: center;
+    border: 1px solid #127e05db;
+    border-radius: 25px;
+    width: 12vw;
+    height: 6vh;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.createGroup:hover{
+    cursor: pointer;
+    background-color: #127e05f0;
+}
+
+.i4{
+    height : 37px;
+    width : 37px;
+    background-color: white;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.i5{
+    background-color: white;
+    padding: 2px;
+}
+
+.adduserinGroup{
+    position: fixed;
+    height: 0px;
+    width: 62vw;
+    /* margin-top: 9vh;
+    margin-top: 0px;
+    margin-top: 10vh; */
+    margin-top: 1vh;
+    margin-left: 82vw;
+}
+
+.addMember1{
+    display: inline-flex;
+    margin-top: 2px;
+    border: 1px solid whitesmoke;
+    padding: 8px;
+}
+
+.doneButton{
+    background-color: #7e97f9ad;
+    border: 1px solid #7e97f9ad;
+    padding: 4px;
+    box-sizing: border-box;
+    margin-left: 4px;
+    border-radius: 4px;
+}
+
+.doneButton:hover{
+    cursor: pointer;
+}

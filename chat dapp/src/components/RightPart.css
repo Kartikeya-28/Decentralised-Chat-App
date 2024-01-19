@@ -1,0 +1,10 @@
+.rightUpper{
+    box-sizing: border-box;
+    position: fixed;
+    height : 50px;
+    width : 64vw;
+    padding: 10px 20px;
+    font-size: 21px;
+    color: #173d66;
+    font-weight: 700;
+}

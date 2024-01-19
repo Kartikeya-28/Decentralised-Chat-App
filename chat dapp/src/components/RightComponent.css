@@ -1,0 +1,150 @@
+.righty1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.righty2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.rightychats{
+    max-width : 37vw;
+    border-radius: 30px;
+    padding : 11px 24px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.user{
+    border: 1px solid #f72020c7;
+    background-color: #f72020c7;
+    color:white;
+    margin-right: 20px;
+}
+
+.other{
+    border : 1px solid #d9e8f86e;
+    background-color: #d9e8f86e;
+    color: black;
+    margin-left: 30px;
+}
+
+.logo{
+    height:12px;
+    width:12px;
+    padding: 4px;
+    border: 1px solid #00000009;
+    background-color: #00000009;
+    
+    border-radius: 20px;
+}
+.logo:hover{
+    background-color: #00000022;
+}
+.leftyLogo{
+    margin-left: 10px;
+}
+.rightyLogo{
+    margin-right: 10px;
+}
+
+.moreOptions{
+    height:3vh;
+    width: 20vw;
+    /* border: 1px solid black; */
+}
+
+.leftOptions{
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rightOptions{
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon{
+    margin-right: 6px;
+    padding: 6px;
+    border-radius: 20px;
+    margin-top: -5px;
+}
+.like{
+    height : 27px;
+    width: 27px;
+    margin-top: -7px;
+}
+.heart{
+    height : 3vh;
+    width : 3vh;
+}
+.icon:hover{
+    cursor: pointer;
+    /* background-color: #00000022; */
+}
+
+input{
+    outline : none;
+}
+
+.edit{
+    margin-left: 2px;
+    margin-top: 0px;
+    /* margin-right: 5px; */
+    height: 3vh;
+    width: 3vh;
+}
+
+.edit:hover{
+    cursor: pointer;
+}
+
+.check{
+    height : 3vh;
+    width : 3vh;
+    background-color: rgb(0 0 0 / 6%);
+}
+
+.reacted{
+    border: 1px solid #816f6f0a;
+    background-color: #efeaea2e;
+    border-radius: 5px;
+    height : 30vh;
+    width : 12vw;
+    margin-right: 0.5vw;
+    margin-top: -1vw;
+}
+
+.usersreacted{
+    box-sizing: border-box;
+    padding: 4px;
+    height: 5vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 2.5vw;
+    margin-top: -38px;
+}
+
+.reactuserObj{
+    border: 1px solid #816f6f1f;
+
+}
+
+.userIcon{
+    margin-top: 2px;
+    height: 3.5vh;
+    width: 3.5vh;
+}
+
+.userIcon:hover{
+    cursor: default;
+}

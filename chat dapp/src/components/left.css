@@ -1,0 +1,22 @@
+.left1{
+    /* border: 1px solid #64729d5c; */
+    box-sizing: border-box;
+    padding: 8px;
+    height : 70px;
+    width : 35vw;
+}
+
+.left2{
+    font-size: 21px;
+    color : black;
+}
+
+.left21{
+    font-family: "Nunito";
+    font-weight: bold;
+    margin-top: 9px;
+}
+.left22{
+    font-family: "Nunito";
+    margin-top: 4px;
+}
